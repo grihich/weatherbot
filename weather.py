@@ -5,7 +5,7 @@ from pyowm.utils import timestamps
 
 
 def get_temperature_at_place(place):
-	api_key = '4aa1a8ce74cd71a59cca5daf1deaab9e'
+	api_key = 'owm key'
 	owm = OWM(api_key)
 	mgr = owm.weather_manager()
 	observation = mgr.weather_at_place(place + ",RU")
